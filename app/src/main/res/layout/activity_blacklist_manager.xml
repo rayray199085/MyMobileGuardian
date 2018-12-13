@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:orientation="vertical"
+              android:layout_height="match_parent">
+    <RelativeLayout android:layout_width="match_parent"
+                    android:background="@drawable/title_bar9"
+                    android:gravity="center_vertical"
+                    android:layout_height="wrap_content">
+        <TextView android:layout_width="wrap_content"
+                  android:textSize="25sp"
+                  android:textStyle="bold"
+                  android:id="@+id/tv_blacklist_manager_title"
+                  android:layout_marginLeft="5dp"
+                  android:text="@string/blacklist_manager_title"
+                  android:textColor="#ffffff"
+                  android:layout_alignParentLeft="true"
+                  android:layout_height="wrap_content"/>
+        <ImageView android:layout_width="wrap_content"
+                   android:background="@drawable/add"
+                   android:id="@+id/iv_blacklist_manager"
+                   android:layout_marginRight="5dp"
+                   android:layout_alignParentRight="true"
+                   android:layout_height="wrap_content"/>
+    </RelativeLayout>
+    <ListView android:layout_width="match_parent"
+              android:layout_margin="5dp"
+              android:id="@+id/lv_blacklist_manager"
+              android:layout_height="wrap_content">
+
+    </ListView>
+
+</LinearLayout>

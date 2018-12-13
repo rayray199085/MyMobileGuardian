@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:gravity="center_vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+    <ImageView android:layout_width="50dp"
+               android:layout_marginLeft="5dp"
+               android:id="@+id/iv_app_lock_icon"
+               android:background="@drawable/star"
+               android:layout_height="50dp"/>
+    <TextView android:layout_width="0dp"
+              android:layout_weight="1"
+              android:paddingRight="5dp"
+              android:text="Wechat"
+              android:gravity="center"
+              android:textStyle="italic"
+              android:textSize="25sp"
+              android:id="@+id/tv_app_lock_app_name"
+              android:layout_height="wrap_content"/>
+    <ImageView android:layout_width="30dp"
+               android:layout_marginRight="5dp"
+               android:background="@drawable/lock"
+               android:id="@+id/iv_app_lock_lock_img"
+               android:layout_height="30dp"/>
+</LinearLayout>

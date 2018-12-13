@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:background="#accc"
+                android:layout_height="match_parent">
+    <Button android:layout_width="wrap_content"
+            android:singleLine="true"
+            android:textColor="#e0ffffff"
+            android:textStyle="bold"
+            android:padding="3dp"
+            android:visibility="invisible"
+            android:id="@+id/btn_toast_location_top"
+            android:gravity="center"
+            android:layout_alignParentTop="true"
+            android:textSize="15sp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/toast_location_hint_button"
+            android:layout_height="wrap_content"
+            android:text="@string/toast_location_hint_button"
+    />
+    <ImageView android:layout_width="wrap_content"
+               android:background="@drawable/location_position"
+               android:layout_height="wrap_content"
+               android:id="@+id/iv_toast_location_drag"
+               android:layout_alignParentTop="true"/>
+    <Button android:layout_width="wrap_content"
+            android:singleLine="true"
+            android:textColor="#e0ffffff"
+            android:textStyle="bold"
+            android:visibility="visible"
+            android:id="@+id/btn_toast_location_bottom"
+            android:padding="3dp"
+            android:gravity="center"
+            android:layout_alignParentBottom="true"
+            android:textSize="15sp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/toast_location_hint_button"
+            android:layout_height="wrap_content"
+            android:text="@string/toast_location_hint_button"
+    />
+
+
+</RelativeLayout>

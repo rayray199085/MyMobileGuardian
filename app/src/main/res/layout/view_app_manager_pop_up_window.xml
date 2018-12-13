@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:gravity="center"
+              android:background="@drawable/pop_up_window_background"
+              android:layout_width="240dp"
+              android:layout_height="115dp">
+
+    <LinearLayout android:layout_width="0dp"
+                  android:layout_weight="1"
+                  android:background="@drawable/pop_up_manager_button"
+                  android:id="@+id/ll_apps_manager_uninstall"
+                  android:orientation="vertical"
+                  android:layout_height="wrap_content">
+        <ImageView android:layout_width="wrap_content"
+                   android:layout_marginTop="10dp"
+                   android:layout_marginLeft="10dp"
+                   android:layout_marginRight="10dp"
+                   android:background="@drawable/uninstall"
+                   android:layout_height="wrap_content"/>
+        <TextView android:layout_width="match_parent"
+                  android:text="@string/del_app_manager"
+                  android:textColor="#ffffff"
+                  android:textStyle="bold"
+                  android:gravity="center"
+                  android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="0dp"
+                  android:layout_weight="1"
+                  android:background="@drawable/pop_up_manager_button"
+                  android:id="@+id/ll_apps_manager_boot_up"
+                  android:orientation="vertical"
+                  android:layout_height="wrap_content">
+        <ImageView android:layout_width="wrap_content"
+                   android:layout_marginTop="10dp"
+                   android:layout_marginLeft="10dp"
+                   android:layout_marginRight="10dp"
+                   android:background="@drawable/boot_up"
+                   android:layout_height="wrap_content"/>
+
+        <TextView android:layout_width="match_parent"
+                  android:text="@string/boot_app_manager"
+                  android:textColor="#ffffff"
+                  android:textStyle="bold"
+                  android:gravity="center"
+                  android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="0dp"
+                  android:layout_weight="1"
+                  android:background="@drawable/pop_up_manager_button"
+                  android:id="@+id/ll_apps_manager_share"
+                  android:orientation="vertical"
+                  android:layout_height="wrap_content">
+        <ImageView android:layout_width="wrap_content"
+                   android:background="@drawable/share"
+                   android:layout_marginTop="10dp"
+                   android:layout_marginLeft="10dp"
+                   android:layout_marginRight="10dp"
+                   android:layout_height="wrap_content"/>
+        <TextView android:layout_width="match_parent"
+                  android:text="@string/share_app_manager"
+                  android:textColor="#ffffff"
+                  android:textStyle="bold"
+                  android:gravity="center"
+                  android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</LinearLayout>

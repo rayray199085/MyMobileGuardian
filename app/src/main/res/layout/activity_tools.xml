@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <TextView style="@style/titleTheme"
+              android:text="@string/advanced_tools_title"/>
+    <TextView android:layout_width="match_parent"
+              android:padding="3dp"
+              android:drawableLeft="@drawable/zoom"
+              android:layout_marginTop="5dp"
+              android:layout_marginLeft="3dp"
+              android:layout_marginRight="3dp"
+              android:gravity="center"
+              android:textStyle="italic"
+              android:textColor="#2B2E2F"
+              android:background="@drawable/reset_security_bg"
+              android:id="@+id/tv_tools_location_inquiry"
+              android:textSize="25sp"
+              android:text="@string/phone_number_location_inquiry"
+              android:layout_height="wrap_content"/>
+    <View android:layout_width="match_parent"
+          android:layout_height="2dp"
+          android:layout_margin="5dp"
+          android:background="#2B2E2F">
+    </View>
+    <com.project.stephencao.mymobileguardian.view.MySettingsItemsView
+            android:paddingLeft="5dp"
+            android:layout_width="match_parent"
+            android:id="@+id/sv_tools_rocket_man_items"
+            android:layout_height="wrap_content">
+    </com.project.stephencao.mymobileguardian.view.MySettingsItemsView>
+    <com.project.stephencao.mymobileguardian.view.MySettingStylesView
+            android:layout_width="match_parent"
+            android:id="@+id/sv_tools_rocket_man_styles"
+            android:layout_height="wrap_content">
+    </com.project.stephencao.mymobileguardian.view.MySettingStylesView>
+    <TextView android:layout_width="match_parent"
+              android:padding="3dp"
+              android:drawableLeft="@drawable/backup"
+              android:layout_marginTop="5dp"
+              android:layout_marginLeft="3dp"
+              android:layout_marginRight="3dp"
+              android:gravity="center"
+              android:textStyle="italic"
+              android:textColor="#2B2E2F"
+              android:background="@drawable/reset_security_bg"
+              android:id="@+id/tv_tools_location_sms_backup"
+              android:textSize="25sp"
+              android:text="@string/sms_backup"
+              android:layout_height="wrap_content"/>
+    <View android:layout_width="match_parent"
+          android:layout_height="2dp"
+          android:layout_margin="5dp"
+          android:background="#2B2E2F">
+    </View>
+    <TextView android:layout_width="match_parent"
+              android:padding="3dp"
+              android:drawableLeft="@drawable/yellow_pages"
+              android:layout_marginTop="5dp"
+              android:layout_marginLeft="3dp"
+              android:layout_marginRight="3dp"
+              android:gravity="center"
+              android:textStyle="italic"
+              android:textColor="#2B2E2F"
+              android:background="@drawable/reset_security_bg"
+              android:id="@+id/tv_tools_location_hot_lines"
+              android:textSize="25sp"
+              android:text="@string/hot_lines"
+              android:layout_height="wrap_content"/>
+    <View android:layout_width="match_parent"
+          android:layout_height="2dp"
+          android:layout_margin="5dp"
+          android:background="#2B2E2F">
+    </View>
+
+    <TextView android:layout_width="match_parent"
+              android:padding="3dp"
+              android:drawableLeft="@drawable/app_lock"
+              android:layout_marginTop="5dp"
+              android:layout_marginLeft="3dp"
+              android:layout_marginRight="3dp"
+              android:gravity="center"
+              android:textStyle="italic"
+              android:textColor="#2B2E2F"
+              android:background="@drawable/reset_security_bg"
+              android:id="@+id/tv_tools_location_app_lock"
+              android:textSize="25sp"
+              android:text="@string/application_lock"
+              android:layout_height="wrap_content"/>
+    <View android:layout_width="match_parent"
+          android:layout_height="2dp"
+          android:layout_margin="5dp"
+          android:background="#2B2E2F">
+    </View>
+
+
+</LinearLayout>

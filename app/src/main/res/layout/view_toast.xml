@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <TextView android:layout_width="wrap_content"
+              android:id="@+id/tv_toast"
+              android:text="toast"
+              android:padding="5dp"
+              android:gravity="center_vertical|left"
+              android:textSize="15sp"
+              android:drawableLeft="@drawable/phone"
+              android:background="@drawable/toast_bg_default"
+              android:layout_height="wrap_content"/>
+
+</LinearLayout>

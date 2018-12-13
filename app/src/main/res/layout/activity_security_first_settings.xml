@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:id="@+id/ll_security_settings_view1"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <TextView style="@style/titleTheme"
+              android:text="@string/security_settings_title"/>
+    <TextView android:layout_width="match_parent"
+              android:textColor="#2B2E2F"
+              android:padding="5dp"
+              android:textSize="25sp"
+              android:text="@string/security_settings_functions"
+              android:layout_height="wrap_content"/>
+    <TextView android:layout_width="match_parent"
+              android:padding="5dp"
+              android:textColor="#2B2E2F"
+              android:textSize="18sp"
+              android:gravity="center_vertical"
+              android:drawableLeft="@drawable/star"
+              android:text="@string/sim_status_change"
+              android:layout_height="wrap_content"/>
+
+    <TextView android:layout_width="match_parent"
+              android:padding="5dp"
+              android:textSize="18sp"
+              android:textColor="#2B2E2F"
+              android:gravity="center_vertical"
+              android:drawableLeft="@drawable/star"
+              android:text="@string/gps_tracking"
+              android:layout_height="wrap_content"/>
+
+    <TextView android:layout_width="match_parent"
+              android:padding="5dp"
+              android:textColor="#2B2E2F"
+              android:textSize="18sp"
+              android:gravity="center_vertical"
+              android:drawableLeft="@drawable/star"
+              android:text="@string/remote_erase_data"
+              android:layout_height="wrap_content"/>
+
+    <TextView android:layout_width="match_parent"
+              android:padding="5dp"
+              android:textSize="18sp"
+              android:textColor="#2B2E2F"
+              android:gravity="center_vertical"
+              android:drawableLeft="@drawable/star"
+              android:text="@string/remote_lock_screen"
+              android:layout_height="wrap_content"/>
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_marginTop="5dp"
+                  android:orientation="horizontal"
+                  android:gravity="center"
+                  android:layout_height="wrap_content">
+        <ImageView android:layout_width="wrap_content"
+                   android:background="@drawable/on"
+                   android:layout_height="wrap_content"/>
+        <ImageView android:layout_width="wrap_content"
+                   android:background="@drawable/off"
+                   android:layout_height="wrap_content"/>
+        <ImageView android:layout_width="wrap_content"
+                   android:background="@drawable/off"
+                   android:layout_height="wrap_content"/>
+        <ImageView android:layout_width="wrap_content"
+                   android:background="@drawable/off"
+                   android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <RelativeLayout android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+        <ImageView android:layout_width="wrap_content"
+                   android:background="@drawable/robot1"
+                   android:layout_centerInParent="true"
+                   android:layout_height="wrap_content"/>
+        <Button style="@style/nextButtonTheme"
+                android:id="@+id/btn_security_setting_page1_next"
+                />
+
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+<SlidingDrawer android:layout_width="match_parent"
+               android:orientation="horizontal"
+               android:handle="@+id/handle"
+               android:content="@+id/drawer_content"
+               android:layout_height="match_parent">
+    <ImageView android:layout_width="wrap_content"
+               android:id="@id/handle"
+               android:background="@drawable/kazuha01"
+               android:layout_height="wrap_content"/>
+    <ImageView android:layout_width="wrap_content"
+              android:id="@id/drawer_content"
+              android:background="@drawable/kong_hee_fat_choy"
+              android:layout_height="wrap_content"/>
+</SlidingDrawer>
+</LinearLayout>

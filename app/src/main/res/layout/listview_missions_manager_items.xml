@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+<ImageView android:layout_width="50dp"
+           android:background="@mipmap/ic_launcher"
+           android:id="@+id/iv_missions_manager_icon"
+           android:layout_height="50dp"/>
+    <LinearLayout
+            android:layout_toRightOf="@+id/iv_missions_manager_icon"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:id="@+id/ll_missions_manager_text_description"
+            android:weightSum="2"
+            android:layout_height="wrap_content">
+        <TextView android:layout_width="match_parent"
+                  android:text="Mission Name"
+                  android:id="@+id/tv_missions_manager_mission_name"
+                  android:layout_weight="1"
+                  android:textSize="15sp"
+                  android:gravity="center_vertical|left"
+                  android:layout_marginBottom="5dp"
+                  android:layout_height="0dp"/>
+        <TextView android:layout_width="match_parent"
+                  android:text="Mission space consumption"
+                  android:layout_weight="1"
+                  android:gravity="center_vertical|left"
+                  android:textSize="15sp"
+                  android:id="@+id/tv_missions_manager_mission_occupy_space"
+                  android:layout_height="0dp"/>
+
+    </LinearLayout>
+    <CheckBox android:layout_width="wrap_content"
+              android:layout_alignParentRight="true"
+              android:layout_centerVertical="true"
+              android:clickable="false"
+              android:focusable="false"
+              android:focusableInTouchMode="false"
+              android:layout_marginRight="5dp"
+              android:id="@+id/cb_missions_manager_is_chosen"
+              android:layout_height="wrap_content"/>
+</RelativeLayout>

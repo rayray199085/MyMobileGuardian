@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:id="@+id/ll_security_settings_view4"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <TextView style="@style/titleTheme"
+              android:text="@string/security_settings_title"/>
+    <LinearLayout android:layout_width="match_parent"
+                  android:orientation="horizontal"
+                  android:id="@+id/ll_security_settings_page4"
+                  android:padding="5dp"
+                  android:layout_height="wrap_content">
+        <CheckBox android:layout_width="wrap_content"
+                  android:focusable="false"
+                  android:clickable="false"
+                  android:focusableInTouchMode="false"
+                  android:id="@+id/cb_security_settings_page4"
+                  android:layout_height="wrap_content"/>
+        <TextView android:layout_width="match_parent"
+                  android:gravity="center"
+                  android:textStyle="italic"
+                  android:textColor="#2B2E2F"
+                  android:textSize="18sp"
+                  android:id="@+id/tv_security_settings_page4"
+                  android:layout_height="match_parent"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_marginTop="5dp"
+                  android:orientation="horizontal"
+                  android:gravity="center"
+                  android:layout_height="wrap_content">
+        <ImageView android:layout_width="wrap_content"
+                   android:background="@drawable/off"
+                   android:layout_height="wrap_content"/>
+        <ImageView android:layout_width="wrap_content"
+                   android:background="@drawable/off"
+                   android:layout_height="wrap_content"/>
+        <ImageView android:layout_width="wrap_content"
+                   android:background="@drawable/off"
+                   android:layout_height="wrap_content"/>
+        <ImageView android:layout_width="wrap_content"
+                   android:background="@drawable/on"
+                   android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <RelativeLayout android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+        <ImageView android:layout_width="wrap_content"
+                   android:background="@drawable/congratulations"
+                   android:layout_centerInParent="true"
+                   android:layout_height="wrap_content"/>
+        <Button style="@style/prevButtonTheme"
+                android:id="@+id/btn_security_setting_page4_prev"
+        />
+        <Button style="@style/nextButtonTheme"
+                android:text="@string/finish_button"
+                android:id="@+id/btn_security_setting_page4_next"
+        />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

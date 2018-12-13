@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:orientation="vertical"
+              android:background="#f5f5f5"
+              android:id="@+id/ll_settings"
+              android:layout_height="match_parent">
+    <TextView style="@style/titleTheme"
+              android:text="@string/settings_title"/>
+    <ScrollView android:layout_width="match_parent"
+                android:layout_height="match_parent">
+        <LinearLayout android:layout_width="match_parent"
+                      android:orientation="vertical"
+                      android:layout_height="match_parent">
+            <com.project.stephencao.mymobileguardian.view.MySettingsItemsView
+                    android:id="@+id/sv_auto_upgrade"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+            </com.project.stephencao.mymobileguardian.view.MySettingsItemsView>
+            <com.project.stephencao.mymobileguardian.view.MySettingsItemsView
+                    android:id="@+id/sv_registration_locaion"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:layout_height="wrap_content">
+            </com.project.stephencao.mymobileguardian.view.MySettingsItemsView>
+            <com.project.stephencao.mymobileguardian.view.MySettingStylesView
+                    android:id="@+id/ss_registration_location_display_style"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:layout_height="wrap_content">
+            </com.project.stephencao.mymobileguardian.view.MySettingStylesView>
+            <com.project.stephencao.mymobileguardian.view.MySettingStylesView
+                    android:id="@+id/ss_registration_location_display_position"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:layout_height="wrap_content">
+            </com.project.stephencao.mymobileguardian.view.MySettingStylesView>
+            <com.project.stephencao.mymobileguardian.view.MySettingsItemsView
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:id="@+id/sv_blacklist"
+                    android:layout_height="wrap_content">
+            </com.project.stephencao.mymobileguardian.view.MySettingsItemsView>
+            <com.project.stephencao.mymobileguardian.view.MySettingsItemsView
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:id="@+id/sv_application_lock"
+                    android:layout_height="wrap_content">
+            </com.project.stephencao.mymobileguardian.view.MySettingsItemsView>
+            <com.project.stephencao.mymobileguardian.view.MySettingsItemsView
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:id="@+id/sv_my_device_administrator"
+                    android:layout_height="wrap_content">
+            </com.project.stephencao.mymobileguardian.view.MySettingsItemsView>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

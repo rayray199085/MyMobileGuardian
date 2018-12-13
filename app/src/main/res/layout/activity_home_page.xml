@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+   <TextView style="@style/titleTheme"
+             android:id="@+id/tv_title"
+             android:text="@string/home_title"/>
+
+   <com.project.stephencao.mymobileguardian.view.MyFocusTextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:id="@+id/tv_marquee"
+           android:text="@string/marquee_content"
+           android:singleLine="true"
+           android:padding="3dp"
+           android:textSize="15sp"
+           android:ellipsize="marquee"
+           android:marqueeRepeatLimit="marquee_forever"
+           android:gravity="center"
+           android:layout_below="@+id/tv_title"/>
+
+   <GridView android:layout_width="match_parent"
+             android:numColumns="3"
+             android:paddingTop="10dp"
+             android:background="#f5f5f5"
+             android:verticalSpacing="10dp"
+             android:id="@+id/gv_functions"
+             android:layout_below="@id/tv_marquee"
+             android:layout_height="match_parent">
+
+   </GridView>
+
+</RelativeLayout>

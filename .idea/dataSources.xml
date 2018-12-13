@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="Android SQLite" uuid="ac01df28-3960-4427-b67f-ed499f3b6a69">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:$USER_HOME$/Library/Caches/IntelliJIdea2018.2/android/databases/SERIAL_NUMBER_4300af76540830a3/com.project.stephencao.mymobileguardian/internal/blacklist.db</jdbc-url>
+    </data-source>
+  </component>
+</project>

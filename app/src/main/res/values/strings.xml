@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">MyMobileGuardian</string>
+    <string name="version_name">1.0.0</string>
+    <string name="home_title">FUNCTIONS</string>
+    <string name="marquee_content">The-meaning-of-love: To love is to share life together,to build special plans just
+        for two,to work side by side,and then smile with pride,as one by one, dreams all come true.
+    </string>
+    <string name="settings_title">SETTINGS</string>
+    <string name="title_init_dialog">Initialize Password</string>
+    <string name="login_confirm_password">Login</string>
+    <string name="init_dg_enter_psw_hint">Enter Your Password</string>
+    <string name="init_dg_confirm_psw_hint">Confirm Your Password</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="confirm_button">Confirm</string>
+    <string name="security_settings_title">SECURITY BASIC SETTINGS</string>
+    <string name="security_settings_functions">The main functions:</string>
+    <string name="sim_status_change">SIM Card Status Change</string>
+    <string name="gps_tracking">GPS Tracking</string>
+    <string name="remote_erase_data">Remote Erase Data</string>
+    <string name="remote_lock_screen">Remote Lock Screen</string>
+    <string name="next_button">next</string>
+    <string name="prev_button">prev</string>
+    <string name="send_warning_message_notification">Please bind your SIM card. If SIM card status changes when
+        rebooting the phone. A warning message will be sent.
+    </string>
+    <string name="setting_phone_number_introduction">Please enter the target phone number which receives the warning
+        message when SIM card status has changed without your permission.
+    </string>
+    <string name="choose_number_button">Choose Number From Contact</string>
+    <string name="finish_button">Finish</string>
+    <string name="select_contact_number">Select Contact Number</string>
+    <string name="security_function_list">SECURITY FUNCTION LIST</string>
+    <string name="safety_contact_number">Safety Contact Number:</string>
+    <string name="security_protection_is_on_off">Security Protection is on/off</string>
+    <string name="enter_security_settings_page_and_edit_settings">Enter Security Settings Page and Edit Settings
+    </string>
+    <string name="security_function_introduction">Function Introduction</string>
+    <string name="gps_tracking_location">GPS Tracking: #*location*#</string>
+    <string name="remote_lock_screen_lockscreen">Remote Lock Screen: #*lockscreen*#</string>
+    <string name="erase_data_erasedata">Erase Data: #*erasedata*#</string>
+    <string name="play_alarm_sound_alarm">Play Alarm Sound: #*alarm*#</string>
+    <string name="sample_device_admin">my device admin</string>
+    <string name="sample_device_admin_description">administrator operations</string>
+    <string name="advanced_tools_title">ADVANCED TOOLS</string>
+    <string name="phone_number_location_inquiry">Phone Number Location Inquiry</string>
+    <string name="phone_number_location_inquiry_title">NUMBER LOCATION INQUIRY</string>
+    <string name="location_inquiry_button">Query</string>
+    <string name="searching_number_hint">Please type in the searching number:</string>
+    <string name="toast_location_hint_button">Press and drag the green button to any position</string>
+    <string name="blacklist_manager_title">Blacklist Manager</string>
+    <string name="add_to_blacklist_dialog_title">Add Number to Blacklist</string>
+    <string name="sms_backup">SMS Backup</string>
+    <string name="application_manager_title">Application Manager</string>
+    <string name="del_app_manager">DEL</string>
+    <string name="boot_app_manager">LAUNCH</string>
+    <string name="share_app_manager">SHARE</string>
+    <string name="missions_manager_title">Missions Manager</string>
+    <string name="select_all_missions">Select All</string>
+    <string name="reverse_all_missions">Reverse All</string>
+    <string name="clear_all_missions">Clear All</string>
+    <string name="settings_missions">Settings</string>
+    <string name="missions_manager_setting_title">Missions Manager Settings</string>
+    <string name="clear_missions_when_lock_the_screen">Clear missions when lock the screen</string>
+    <string name="hide_system_missions">Hide System Missions</string>
+    <string name="shortcut_name">MG</string>
+    <string name="hot_lines">Hot Lines</string>
+    <string name="common_hot_lines_enquiry_title">Common Hot Lines Enquiry</string>
+    <string name="clear_all_widget_button">Clear All</string>
+    <string name="application_lock">Application Lock</string>
+    <string name="unlocked_apps_button">Unlocked Apps</string>
+    <string name="locked_apps_button">Locked Apps</string>
+    <string name="submit_button">Submit</string>
+    <string name="virus_killer_title">Virus Killer</string>
+    <string name="clear_cached_data_title">Clear Cached Data</string>
+
+
+</resources>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:id="@+id/ll_security_settings_view2"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <TextView style="@style/titleTheme"
+              android:text="@string/security_settings_title"/>
+    <TextView android:layout_width="match_parent"
+              android:padding="5dp"
+              android:textStyle="italic"
+              android:textColor="#2B2E2F"
+              android:textSize="18sp"
+              android:singleLine="false"
+              android:gravity="center_vertical"
+              android:text="@string/send_warning_message_notification"
+              android:layout_height="wrap_content"/>
+    <com.project.stephencao.mymobileguardian.view.MySettingsItemsView android:layout_width="match_parent"
+                                                                      android:id="@+id/sv_security_settings_page2"
+                                                                      android:layout_height="wrap_content">
+    </com.project.stephencao.mymobileguardian.view.MySettingsItemsView>
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_marginTop="5dp"
+                  android:orientation="horizontal"
+                  android:gravity="center"
+                  android:layout_height="wrap_content">
+        <ImageView android:layout_width="wrap_content"
+                   android:background="@drawable/off"
+                   android:layout_height="wrap_content"/>
+        <ImageView android:layout_width="wrap_content"
+                   android:background="@drawable/on"
+                   android:layout_height="wrap_content"/>
+        <ImageView android:layout_width="wrap_content"
+                   android:background="@drawable/off"
+                   android:layout_height="wrap_content"/>
+        <ImageView android:layout_width="wrap_content"
+                   android:background="@drawable/off"
+                   android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <RelativeLayout android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+        <ImageView android:layout_width="wrap_content"
+                   android:background="@drawable/robot2"
+                   android:layout_centerInParent="true"
+                   android:layout_height="wrap_content"/>
+        <Button style="@style/prevButtonTheme"
+                android:id="@+id/btn_security_setting_page2_prev"
+        />
+        <Button style="@style/nextButtonTheme"
+                android:id="@+id/btn_security_setting_page2_next"
+        />
+
+    </RelativeLayout>
+
+</LinearLayout>

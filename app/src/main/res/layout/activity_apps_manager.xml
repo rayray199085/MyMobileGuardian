@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+                android:id="@+id/rl_apps_manager"
+              android:layout_height="match_parent">
+    <TextView style="@style/titleTheme"
+              android:id="@+id/tv_apps_manager_apps_title"
+              android:text="@string/application_manager_title"/>
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_below="@+id/tv_apps_manager_apps_title"
+                  android:weightSum="2"
+                  android:id="@+id/ll_apps_manager_apps_space"
+                  android:paddingLeft="5dp"
+                  android:paddingRight="5dp"
+                  android:layout_height="wrap_content">
+        <TextView android:layout_width="0dp"
+                  android:layout_weight="1"
+                  android:textColor="#2B2E2F"
+                  android:textSize="15sp"
+                  android:text="Disk Available Space"
+                  android:gravity="center_vertical|left"
+                  android:id="@+id/tv_apps_manager_disk_space"
+                  android:layout_height="wrap_content"/>
+        <TextView android:layout_width="0dp"
+                  android:textSize="15sp"
+                  android:layout_weight="1"
+                  android:textColor="#2B2E2F"
+                  android:text="SD Card Available Space"
+                  android:gravity="center_vertical|right"
+                  android:id="@+id/tv_apps_manager_sd_card_space"
+                  android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <ListView android:layout_width="match_parent"
+              android:layout_below="@+id/ll_apps_manager_apps_space"
+              android:id="@+id/lv_apps_manager"
+              android:layout_height="wrap_content">
+
+    </ListView>
+    <!--In relative layout the next content will always on the top of the previous one if they are in the same position-->
+    <TextView android:layout_width="match_parent"
+              android:background="#8b8a8a"
+              android:textColor="#ffffff"
+              android:layout_below="@+id/ll_apps_manager_apps_space"
+              android:padding="5dp"
+              android:textStyle="bold"
+              android:id="@+id/tv_apps_manager_display_app_type"
+              android:textSize="15sp"
+              android:layout_height="wrap_content"/>
+</RelativeLayout>

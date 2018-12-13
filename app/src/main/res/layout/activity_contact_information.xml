@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <TextView style="@style/titleTheme"
+              android:text="@string/select_contact_number"/>
+    <ListView android:layout_width="match_parent"
+              android:padding="5dp"
+              android:id="@+id/lv_contact_number_information"
+              android:layout_height="wrap_content">
+    </ListView>
+
+</LinearLayout>
